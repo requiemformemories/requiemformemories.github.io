@@ -53,13 +53,18 @@ body{
 	color: #6FB791;
 	text-align: center;
 }
+.works-pic{
+	margin-bottom: 20px;
+}
+.works-pic img{
+	width: 100%;
+}
 
 /* ---------nav--------- */
-.list-group-item.active{
+.nav > li > a{
+	color:#6FB791;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus,.nav-pills > li.active > a:hover{
 	background-color: #6FB791;
 	border-color: #67A785;
-}
-.list-group-item.active:hover,.list-group-item.active:focus{
-	background-color: #99CEB2;
-	border-color: #6FB791;
 }

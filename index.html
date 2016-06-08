@@ -23,11 +23,11 @@
 	<div class="container-fluid">
 	<section role="tabpanel">
 			<!-- Nav tabs -->
-		<div role="tablist" class="col-md-2 col-md-offset-1 list-group">
-			<a class="list-group-item active" href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
-			<a class="list-group-item" href="#works" aria-controls="works" role="tab" data-toggle="tab">Works</a>
-			<a class="list-group-item" href="http://fumitsuki-blog.herokuapp.com/" title="blog">Blog</a>
-		</div>
+		<ul role="tablist" class="col-md-2 col-md-offset-1 nav nav-pills nav-stacked">
+			<li class="active" role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+			<li role="presentation"><a class="" href="#works" aria-controls="works" role="tab" data-toggle="tab">Works</a></li>
+			<li role="presentation"><a class="" href="http://fumitsuki-blog.herokuapp.com/" title="blog">Blog</a></li>
+		</ul>
 		
 		<!-- Tab panes -->
 		<div class="tab-content col-md-8">
@@ -83,7 +83,21 @@
 						<h1 class="title">Fumitsuki's Works</h1><br>
 						<p class="description">以下是文月近期弄出來的小玩具，</p>
 						<p class="description">基本上都破破爛爛的，但還是希望你會喜歡:)</p>
-						
+					</div>
+				</section>
+				<section class="panel panel-default">
+					<div class="panel-body">
+						<h2 class="title">Todolist</h2><br>
+						<div class="works-pic col-md-8 col-md-offset-2">
+							<img  src="pics/works-todolist.jpg" alt="todolist">
+						</div>
+						<div class="col-md-12">
+							<p class="description">基本上就是個可以用來記錄待辦事項的清單，</p>
+							<p class="description">也有category、finish之類的設計，</p>
+							<p class="description">然後有用到ajax這樣。</p>
+							<p class="description">使用rails來做開發</p>
+							<p class="description"><a class="btn btn-default" href="https://salty-reef-12014.herokuapp.com/" title="">Demo連結</a> <a class="btn btn-default" href="https://github.com/requiemformemories/simple_todo_list" title="">Github</a></p>
+						</div>
 					</div>
 				</section>
 			</div>
