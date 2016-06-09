@@ -59,12 +59,35 @@ body{
 .works-pic img{
 	width: 100%;
 }
+.work-btn {
+  color: #fff;
+  background-color: #6FB791;
+  border-color: #67A785;
+}
+.work-btn:focus,.work-btn:hover {
+	color: #fff;
+  	background-color: #99CEB2;
+	border-color: #83BA9D;
+}
 
 /* ---------nav--------- */
 .nav > li > a{
 	color:#6FB791;
 }
+.nav-pills > li > a:focus,.nav-pills > li > a:hover{
+	background-color: rgba(0, 0, 0, 0.05);
+
+}
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus,.nav-pills > li.active > a:hover{
 	background-color: #6FB791;
 	border-color: #67A785;
+}
+
+/* ---------footer--------- */
+.web-footer{
+	margin: 30px;
+}
+.web-footer p{
+	text-align: center;
+	color: rgba(0, 0, 0, 0.75); 
 }
