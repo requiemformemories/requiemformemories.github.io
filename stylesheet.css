@@ -38,6 +38,7 @@ body{
 }
 .fa:hover,.fa:focus{
 	color:#99CEB2;
+	transition: 0.5s;
 }
 .ex-h2{
 	color: #6FB791;
@@ -68,6 +69,7 @@ body{
 	color: #fff;
   	background-color: #99CEB2;
 	border-color: #83BA9D;
+	transition: 0.5s;
 }
 /* ---------mountain--------- */
 .mountain-col{
@@ -81,11 +83,13 @@ body{
 }
 .nav-pills > li > a:focus,.nav-pills > li > a:hover{
 	background-color: rgba(0, 0, 0, 0.05);
+	transition: 0.5s;
 
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus,.nav-pills > li.active > a:hover{
 	background-color: #6FB791;
 	border-color: #67A785;
+	transition: 0.5s;
 }
 
 /* ---------footer--------- */
