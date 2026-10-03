@@ -11,7 +11,7 @@ These rules apply to Codex, Claude, and other coding agents working in this repo
 
 ## Content and markup
 
-- Use Traditional Chinese for prose and preserve the owner's voice. Keep proper names and technical terms as supplied.
+- Use Traditional Chinese for prose and preserve the owner's voice. Keep proper names and technical terms as supplied. Do not rewrite personal descriptions into generic portfolio copy; layout work should preserve the original wording unless copy changes are requested.
 - Do not invent employment details, dates, talk abstracts, or links. Keep the latest talk in the featured section and older talks in reverse chronological order in the archive; avoid duplicating the latest talk.
 - Experience entries normally contain organization, role, and dates only. Keep the National Taiwan University Library and Information Science Lab 12 description unless asked otherwise.
 - The site uses standard HTML, not AMP. Use native elements, meaningful image `alt` text, explicit intrinsic dimensions, and lazy loading for below-the-fold images.
