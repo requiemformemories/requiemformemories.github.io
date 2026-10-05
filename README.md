@@ -21,3 +21,5 @@ python3 -m http.server 8765 --bind 127.0.0.1
 Open <http://127.0.0.1:8765/>. Check narrow phones and desktop layouts, reduced motion, keyboard navigation, photo viewing, and the page without JavaScript. The site was migrated from AMP to standard HTML in October 2026.
 
 Keep the sharing image consistent with the wordmark when updating the visual identity. Keep the latest talk near the top of the page; move its predecessor into the archive. Update employment information in both the visible content and metadata when it changes.
+
+`images/favicon.svg` is the source for the moon-and-star icon. Keep the 32 × 32 PNG fallback and the opaque 180 × 180 Apple touch icon in sync with it. Bump the icon links' version query when changing them so browsers can refresh their cached favicon.

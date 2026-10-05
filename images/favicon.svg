@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Fumitsuki — moon and star</title>
+  <rect width="64" height="64" rx="15" fill="#efedf6"/>
+  <path d="M39 10C25 7 12 17 12 32C12 46 24 55 37 52C45 50 51 45 53 38C43 44 30 38 28 28C26 20 31 13 39 10Z" fill="#58466f"/>
+  <path d="M48 12C49 20 51 22 58 23C51 24 49 26 48 33C47 26 45 24 38 23C45 22 47 20 48 12Z" fill="#8c70aa"/>
+</svg>
